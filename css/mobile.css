@@ -1,0 +1,18 @@
+html {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 550px;
+}
+
+.main-header p {
+  max-width: 95%;
+}
+
+@media(max-width:500px) {
+  section#images {
+    grid-template-columns: repeat(1,1fr);
+    padding: 2rem;
+  }
+}
